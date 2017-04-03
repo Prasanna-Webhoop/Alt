@@ -1,0 +1,402 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:itemBackground">@color/colorBlack</item>
+        <item name="android:itemTextAppearance">@color/colorWhite</item>
+        <!--<item name="android:windowEnterAnimation">@anim/pull_in_right</item>
+        <item name="android:windowExitAnimation">@anim/push_out_left</item>-->
+        <!--<item name="android:popupMenuStyle">@style/PopupMenuStyle</item>-->
+    </style>
+
+    <style name="DatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/color_black</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"></style>
+
+    <style name="PopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!--<style name="PopupMenuStyle" parent="@android:style/Widget.PopupMenu">-->
+    <!--<item name="android:popupBackground">@android:color/white</item>-->
+    <!--<item name="android:textColor">@color/colorPrimary</item>-->
+    <!--<item name="android:textSize">12sp</item>-->
+    <!--</style>-->
+
+    <!--FORM LABEL STYLE-->
+    <style name="form_label">
+        <item name="android:textColor">@color/form_label_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:capitalize">words</item>
+    </style>
+
+    <!--PROFILE ACTIVITY FORM TEXT STYLE-->
+    <style name="profile_form_text_style">
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textColor">@color/form_label_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:inputType">textNoSuggestions</item>
+
+        <!--<item name="android:padding">7dp</item>-->
+    </style>
+
+    <!--PUSH USER STYLE-->
+    <style name="push_user_text_style">
+        <item name="fontType">@string/avenirBold</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+
+        <!--<item name="android:padding">7dp</item>-->
+        <!--android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="bold"-->
+
+    </style>
+
+
+    <!--Edit Profile Label Style-->
+    <!--    android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size_small"-->
+    <style name="edit_profile_form_left_label">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+
+    </style>
+
+    <!--Parking sticker checkBox-->
+    <style name="style_parking_sticker_checkBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.4</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+
+    </style>
+
+
+    <!--android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.7"
+    android:background="@color/transparent"
+    android:textColor="@color/colorText"
+    android:textSize="12sp"-->
+    <!--Edit Profile EditText Style.-->
+    <style name="edit_profile_form_edit_text">
+        <!-- If you changed the layout_weight of this editText Field then also apply the changes to
+        the "comment_editText" also.-->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:inputType">textCapWords</item>
+
+    </style>
+
+    <!--EditText Comments EditText Style.-->
+    <style name="comment_editText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">0.6</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:padding">@dimen/comment_box_padding</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:inputType">textCapSentences|textMultiLine</item>
+        <item name="android:gravity">top</item>
+        <item name="android:singleLine">false</item>
+        <!--<item name="android:layout_marginBottom">5dp</item>-->
+        <item name="android:background">@drawable/rectangle_grey</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+
+    </style>
+
+    <!--    android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_button"
+        android:textOff=""
+        android:textOn=""-->
+    <style name="toggle_button">
+        <item name="android:layout_width">45dp</item>
+        <!--<item name="android:layout_marginTop">3dp</item>-->
+        <!--<item name="android:layout_marginBottom">3dp</item>-->
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/toggle_button</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+    </style>
+
+    <style name="ios_popup_animation" parent="Widget.AppCompat.PopupWindow">
+        <item name="android:windowEnterAnimation">@anim/ios_enter_popup_animation</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+
+    <style name="bottom_button_style">
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_bottom_button_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/drawable_border_top</item>
+        <item name="android:textColor">@color/form_bottom_button_text_color</item>
+    </style>
+
+
+    <!--Activity Middle Button-->
+    <style name="button_upload_document_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_bottom_button_height</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <!--<item name="android:layout_alignParentBottom">true</item>-->
+        <item name="android:background">@drawable/drawable_button_scan_id</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/form_bottom_button_text_color</item>
+    </style>
+
+    <!--APP PROGRESS DIALOG STYLE-->
+    <style name="custom_progress_dialog_style" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--APP CUSTOM ERROR MESSAGE ALERT DIALOG THEME-->
+    <style name="MyDialogTheme" parent="@android:style/Theme.Panel">
+        <item name="android:windowAnimationStyle">@style/MyAnimation.Window</item>
+    </style>
+
+    <style name="MyAnimation.Window" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/push_up_out</item>
+        <item name="android:windowExitAnimation">@anim/push_up_in</item>
+    </style>
+
+
+    <!--NUMERIC PASSWORD KEYPAD STYLE-->
+    <style name="numeric_textview">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/rounded_circle_black_numeric_keypad</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/numeric_keypad_text_size</item>
+    </style>
+
+    <!--NUMERIC PASSWORD KEYPAD STYLE-->
+    <style name="numeric_textview_small">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rounded_circle_black_numeric_keypad</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/numeric_keypad_text_size_small</item>
+    </style>
+
+    <!--NUMERIC PASSWORD KEYPAD STYLE-->
+    <style name="numeric_textview_large">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:background">@drawable/rounded_circle_black_numeric_keypad</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/numeric_keypad_text_size</item>
+    </style>
+
+    <!--NUMERIC PASSWORD KEYPAD STYLE-->
+    <style name="numeric_textview_xlarge">
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:background">@drawable/rounded_circle_black_numeric_keypad</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/numeric_keypad_text_size_small</item>
+    </style>
+
+    <!--NUMERIC PASSWORD KEYPAD STYLE-->
+    <style name="numeric_textview_normal">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rounded_circle_black_numeric_keypad</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/numeric_keypad_text_size_small</item>
+    </style>
+
+    <!--Main Board Drawer Bottom Log out Button Style.-->
+    <!--
+    android:background="@drawable/drawable_border_top_logout_button"
+    android:gravity="left|center_vertical"
+    android:paddingLeft="5dp"
+    android:text="Log Out"
+    android:textAllCaps="false"
+    android:textColor="@color/form_bottom_button_text_color"
+    android:textSize="@dimen/text_size_large"-->
+    <style name="drawer_log_out_button_style">
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:text">Logout</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">@dimen/padding_left</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/drawable_border_top_logout_button</item>
+        <item name="android:textColor">@color/form_bottom_button_text_color</item>
+    </style>
+
+    <!--Drawer Nav item textView Style.-->
+    <!--android:layout_gravity="center"
+    android:gravity="center"
+    android:text="Nav Name"
+    android:textColor=""
+    android:textSize="@dimen/textSize"
+    android:textStyle="bold"-->
+
+    <style name="drawer_nav_item_texView_style">
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">left</item>
+        <item name="android:text">Nav Name</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+
+    <!--OFFER LETTER STYLES.-->
+
+    <!--    android:textColor="@color/color_black"
+        android:textSize="12sp"
+        onBoarding:fontType="@string/avenirRegular"-->
+    <style name="offer_letter_bottom_button">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="fontType">@string/avenirRegular</item>
+    </style>
+
+    <!--Base Tool Bar TextView-->
+    <!--android:textColor="#000000"
+    android:textSize="@dimen/text_size_medium"
+    android:textStyle="bold"-->
+    <style name="base_tool_bar_textView_title">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="fontType">@string/avenirBold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Right Title in base toolbar.-->
+    <!--    android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size_medium"-->
+    <style name="base_tool_bar_textView_right_title">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--Preferred email styles-->
+    <style name="preferred_email_textView_style">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--Check list TexView styles-->
+    <style name="check_list_textView_style">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fill_up_information_style">
+        <item name="android:textSize">14sp</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+
+    <!--Check List AddPhoto textView Style.-->
+    <style name="check_list_add_photo_textView_style">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="fontType">@string/avenirRegular</item>
+    </style>
+
+    <!--    android:paddingBottom="13dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="0dp"
+        android:paddingTop="13dp"-->
+    <style name="right_arrow_push_user">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingBottom">13dp</item>
+
+    </style>
+
+    <!--Button Upload Document.-->
+    <!--<style name="button_upload_document_style">
+        <item name="android:textSize">12sp</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+-->
+
+    <!--FORM HEADING LABLE STYLE-->
+    <style name="form_heading_label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="fontType">@string/avenirRegular</item>
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <dimen name="numeric_keypad_text_size_small">15sp</dimen>
+
+</resources>

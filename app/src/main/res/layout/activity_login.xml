@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:onBoarding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_bg"
+    tools:context="com.alt.login.LoginActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                android:id="@+id/imageview_icon_profile"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/username" />
+
+            <com.alt.others.OnBoardingTextView
+                android:id="@+id/textview_signin_username"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imageview_icon_profile"
+                android:gravity="center_vertical"
+                android:text="USERNAME"
+                android:textColor="@color/colorText"
+                android:textSize="12sp"
+                onBoarding:fontType="@string/avenirRegular" />
+
+            <com.alt.others.OnBoardingEditText
+                android:id="@+id/edittext_signin_username"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textview_signin_username"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imageview_icon_profile"
+                android:background="@android:color/transparent"
+                android:hint="Enter email address"
+                android:inputType="textEmailAddress"
+                android:textAllCaps="false"
+                android:textColorHint="@color/colorHint"
+                android:text="yoga@gmail.com"
+                android:textSize="12sp"
+                onBoarding:fontType="@string/avenirRegular" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="30dp">
+
+            <ImageView
+                android:id="@+id/imageview_icon_password"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/password" />
+
+            <com.alt.others.OnBoardingTextView
+                android:id="@+id/textview_signin_password"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imageview_icon_password"
+                android:gravity="center_vertical"
+                android:text="PIN"
+                android:textColor="@color/colorText"
+                android:textSize="12sp"
+                onBoarding:fontType="@string/avenirRegular" />
+
+            <com.alt.others.OnBoardingEditText
+                android:id="@+id/edittext_signin_password"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textview_signin_password"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/imageview_icon_password"
+                android:background="@android:color/transparent"
+                android:hint="Enter pin"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:password="true"
+                android:text="123456"
+                android:textColorHint="@color/colorHint"
+                android:textSize="12sp"
+                onBoarding:fontType="@string/avenirRegular" />
+        </RelativeLayout>
+
+        <!--Button Login-->
+        <com.alt.others.OnBoardingButton
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/drawable_button_rounded_corner"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText"
+            onBoarding:fontType="@string/avenirRegular" />
+
+        <!--Button Sign Up-->
+        <com.alt.others.OnBoardingButton
+            android:id="@+id/button_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/drawable_button_rounded_corner"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText"
+            onBoarding:fontType="@string/avenirRegular" />
+
+    </LinearLayout>
+
+</RelativeLayout>

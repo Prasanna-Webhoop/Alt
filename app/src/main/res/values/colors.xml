@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#c4c4c4</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBackground">#F6F6F6</color>
+    <color name="colorText">#6A6A6A</color>
+    <color name="colorContinueBorder">#D3D3D3</color>
+    <color name="colorHint">#bfbfc4</color>
+    <color name="colorBorder">#ACACAC</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="color_black">#000000</color>
+    <color name="color_light_black">#3b3838</color>
+    <color name="color_light_pink">#e4b4b4</color>
+    <color name="color_drawer_list_divider">#dcdcdc</color>
+
+    <!--FORM COLOR-->
+    <color name="form_background_color">#f6f6f6</color>
+    <color name="form_label_color">#6a6a6a</color>
+    <color name="form_label_hint_color">#bfbfc4</color>
+    <color name="form_label_value_color">#000000</color>
+    <color name="form_divider_color">#d2d2d2</color>
+    <color name="form_bottom_button_text_color">#656565</color>
+
+    <!--HeaderView TextColors-->
+    <color name="headerView_text_color">#a9a9a9</color>
+    <color name="profile_divider_color">#c9c9c9</color>
+    <color name="color_activity_background">#f6f6f6</color>
+    <color name="rectangle_border_color">#000000</color>
+
+    <!--SEGMENT CONTROLLER COLOR-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#b9003a</color>
+    <color name="colorBlue">#009ece</color>
+    <color name="color_web_blue">#008ADB</color>
+
+    <!--IOS LIKE POPUP MENU COLORS-->
+    <color name="popupActionLabelTextColor">#4579fb</color>
+    <color name="popupActionLabelDividerColor">#dadade</color>
+    <color name="popupBackgroundColor">#f9f9f9</color>
+    <color name="popupTransperencyColor">#99939393</color>
+    <color name="popupActionButtonBackgroundColor">@android:color/transparent</color>
+
+    <!--IOS TOGGLE COLOR-->
+    <color name="toggle_unchecked_color">#f5f5f5</color>
+    <color name="toggle_unselected_stroke_color">#d4d3d3</color>
+    <color name="toggle_checked_color">#88d86b</color>
+    <color name="toggle_view_color">#FFFFFF</color>
+
+
+    <!--BOTTOM BUTTON TOP LINE COLOR-->
+    <color name="bottom_button_top_line_color">#D2D2D2</color>
+    <color name="color_orange">#FF6347</color>
+
+    <!--VIEW PAGER INDICATOR COLOR CODE-->
+    <color name="color_unselected_indicator">#797979</color>
+    <color name="color_selected_indicator">#000000</color>
+
+    <!--Check list background color-->
+    <color name="check_background_color">#3D3D3D</color>
+</resources>

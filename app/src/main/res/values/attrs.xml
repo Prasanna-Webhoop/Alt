@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--On Boarding Steps Header View Component.-->
+    <declare-styleable name="HeaderView">
+        <attr name="stepsList" format="string" />
+        <attr name="board" format="string" />
+        <attr name="android:entries" />
+
+    </declare-styleable>
+
+    <!-- OnBoarding TextView style.-->
+    <declare-styleable name="OnBoarding">
+        <attr name="fontType" format="string" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,295 @@
+<resources>
+    <string name="app_name">Alt</string>
+
+
+    <!--FONTS USED IN ON BOARDING SCREENS-->
+    <!--<string name="avenirBold">fonts/AvenirNextLTPro-Bold.otf</string>-->
+    <string name="avenirBlack">fonts/AvenirLTStd-Black.otf</string>
+    <string name="AvenirLight">fonts/AvenirLTStd-Light.otf</string>
+    <string name="avenirBold">fonts/AvenirLTStd-Medium.otf</string>
+    <string name="avenirBoldCn">fonts/AvenirNextLTPro-BoldCn.otf</string>
+    <string name="avenirBoldCnIt">fonts/AvenirNextLTPro-BoldCnIt.otf</string>
+    <string name="avenirCn">fonts/AvenirNextLTPro-Cn.otf</string>
+    <string name="avenirCnIt">fonts/AvenirNextLTPro-CnIt.otf</string>
+
+    <string name="avenirDemi">fonts/AvenirNextLTPro-Demi.otf</string>
+    <string name="avenirDemiCn">fonts/AvenirNextLTPro-DemiCn.otf</string>
+    <string name="avenirDemiCnIt">fonts/AvenirNextLTPro-DemiCnIt.otf</string>
+
+    <string name="avenirDemiIt">fonts/AvenirNextLTPro-DemiIt.otf</string>
+
+    <string name="avenirHeavyCn">fonts/AvenirNextLTPro-HeavyCn.otf</string>
+    <string name="avenirHeavyCnIt">fonts/AvenirNextLTPro-HeavyCnIt.otf</string>
+
+    <string name="avenirNextLTProIt">fonts/AvenirNextLTPro-It.otf</string>
+
+    <string name="avenirMediumCn">fonts/AvenirNextLTPro-MediumCn.otf</string>
+    <string name="avenirMediumCnIt">fonts/AvenirNextLTPro-MediumCnIt.otf</string>
+    <string name="avenirRegular">fonts/AvenirNextLTPro-Regular.otf</string>
+
+    <string name="avenirUltLtCn">fonts/AvenirNextLTPro-UltLtCn.otf</string>
+    <string name="avenirUltLtCnIt">fonts/AvenirNextLTPro-UltLtCnIt.otf</string>
+
+
+    <!--Main Board Menu titles-->
+    <array name="nav_items">
+        <!--<item>Inbox</item>-->
+        <item>Documentation</item>
+        <!-- <item>Offer</item>
+         <item>\t\tTerms and Conditions</item>
+         <item>\t\tOffer Letter</item>-->
+        <item>Checklist</item>
+        <item>Onboarding Materials</item>
+        <item>Settings</item>
+    </array>
+
+    <!--Alt home navigation drawer items.-->
+    <array name="alt_home_drawer_items">
+        <item>Onboardind</item>
+        <item>Expenses</item>
+        <item>Leaves</item>
+        <item>Goals</item>
+        <item>Overtime</item>
+        <item>Payslip</item>
+        <item>Organisation</item>
+    </array>
+
+
+    <!--Main Board Menu titles-->
+    <array name="nav_checklist_add">
+        <!--<item>Inbox</item>-->
+        <item>Documentation</item>
+        <!--<item>Offer</item>
+        <item>\t\tTerms and Conditions</item>
+        <item>\t\tOffer Letter</item>-->
+        <item>Checklist</item>
+        <item>Onboarding Materials</item>
+        <item>Settings</item>
+    </array>
+    <string name="title_activity_main_board_previous_payslips">MainBoardPreviousPayslips</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="mainboard_profile_tip_footer">Dear XXXX, before we begin onboarding, please read and sign your  Terms and Conditions and Offer letter and continue to fill up additional employee information (under Checklist) located within the highlighted tab on the top left corner of the screen.</string>-->
+    <string name="mainboard_profile_tip_footer">Dear XXXX, as part of your onboarding process, please fill up the checklist items located under the menu on the top left corner of the screen.</string>
+    <string name="mainboard_profile_tip_header"><b>Onboarding User Guide</b></string>
+    <string name="accept_terms_and_conditions">Accept Terms and Conditions</string>
+    <string name="hint_passport">Eg: 871231-56-7891 or A3377566</string>
+
+    <string name="beneficiary_declaration">I confirm that:\n1. This
+        supersedes
+        all
+        previous
+    beneficiary nominations.\n2. I may revoke this request at any time by submitting a new
+    beneficiary nomination form to Human Resource.</string>
+    <string name="statutory_declaration">I hereby declare that the information given in this form is true, correct and complete in accordance with the requirements of the Income Tax Act 1967.
+        \n\tBy checking this box, I hereby acknowledge that I have read, understood and agreed to the above statement</string>
+
+    <string name="previous_employment_details"><i>Previous Employment Details</i></string>
+
+
+    <!--Bank Details Array's-->
+    <string-array name="bank_code">
+        <item>ALLIANCE</item>
+        <item>ALRAJHI</item>
+        <item>ARAB</item>
+        <item>BANK ISLAM</item>
+        <item>BCB</item>
+        <item>BR</item>
+        <item>BSN</item>
+        <item>CIMB ISLAM</item>
+        <item>CITIBANK</item>
+        <item>HL BANK</item>
+        <item>HSBC</item>
+        <item>MBB</item>
+        <item>OCBC</item>
+        <item>PERWIRA</item>
+        <item>PUBLIC BANK</item>
+        <item>RHB</item>
+        <item>STAND CHART</item>
+    </string-array>
+
+    <string-array name="bank_names">
+        <item>Alliance Bank Berhad</item>
+        <item>AL-Rajhi Bank</item>
+        <item>Arab-Malaysian Bank Berhad</item>
+        <item>Bank Islam Malaysia</item>
+        <item>CIMB Bank</item>
+        <item>Bank Rakyat</item>
+        <item>Bank Simpanan Nasional</item>
+        <item>CIMB Islamic Bank Berhad</item>
+        <item>Citibank</item>
+        <item>Hong Leong Bank Berhad</item>
+        <item>Hong Kong Shanghai Bank</item>
+        <item>Maybank</item>
+        <item>OCBC</item>
+        <item>Affin Bank Berhad</item>
+        <item>Public Bank Berhad</item>
+        <item>RHB BANK BERHAD</item>
+        <item>Standard Chartered Bank Malaysia Berhad</item>
+
+    </string-array>
+
+
+    <!--ON BOARDING MARITAL STATUS ARRAY -->
+    <string-array name="marital_status_default_values">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+        <item>Separated</item>
+    </string-array>
+
+    <!--ON BOARDING Account type-->
+    <string-array name="account_type">
+        <item>Saving</item>
+        <item>Checking</item>
+    </string-array>
+
+    <string-array name="gender_default_values">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="media_options">
+        <item>Take Picture</item>
+        <item>Choose Picture</item>
+    </string-array>
+
+    <string-array name="media_upload_document">
+        <item>Choose Picture</item>
+        <item>Take Picture</item>
+        <item>Upload Document</item>
+    </string-array>
+
+    <!--T-shirt sizes -->
+    <string-array name="t_shirt_sizes">
+        <item>M</item>
+        <item>L</item>
+        <item>X</item>
+        <item>XL</item>
+        <item>XXL</item>
+
+    </string-array>
+
+
+    <!-- Address Types -->
+    <string-array name="address_types_default_values">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="address_used_for_default_values">
+        <item>Home</item>
+        <item>Business</item>
+        <item>Office</item>
+        <item>Private</item>
+    </string-array>
+
+    <!--ON BOARDING STEPS ARRAY LIST.-->
+    <string-array name="onboarding_steps">
+        <item>PROFILE</item>
+        <item>CONTACT INFORMATION</item>
+        <item>ADDRESS</item>
+        <item>CURRICULUM VITAE</item>
+        <item>PREVIOUS PAYSLIPS</item>
+        <item>REFERENCES</item>
+        <!--<item>RECOMMENDATION LETTER</item>-->
+        <item>DEGREES</item>
+    </string-array>
+
+
+    <!--MAIN BORAD STEPS ARRAY LIST.-->
+    <!--=============Here we go with new one ==================-->
+    <string-array name="main_board_steps">
+        <!--<item>PROFILE</item>-->
+        <item>CONTACT INFORMATION</item>
+        <item>ADDRESS</item>
+        <item>CURRICULUM VITAE</item>
+        <item>PREVIOUS PAYSLIPS</item>
+        <item>REFERENCES</item>
+        <item>DEGREES</item>
+    </string-array>
+
+    <!--Add Contact information activity arrays-->
+    <string-array name="type_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>iPhone</item>
+        <item>Mobile</item>
+        <item>Main</item>
+        <item>Home Fax</item>
+        <item>Work Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Phone Device array-->
+
+    <string-array name="phone_device_array">
+        <item>Mobile</item>
+        <item>LandLine</item>
+        <item>Fax</item>
+        <item>Intercom</item>
+    </string-array>
+
+
+    <string-array name="phone_device_beneficiary">
+        <item> Fax</item>
+        <item> Mobile</item>
+        <item>Pager</item>
+        <item>Telephone</item>
+    </string-array>
+
+    <string-array name="national_id_types">
+        <item> Fax</item>
+        <item> ASB Membership Number</item>
+        <item>National Identity Number (New IC)</item>
+        <item> National Identity Number (Old IC)</item>
+        <item> PNB Number</item>
+        <item> Provident Fund (KWSP Number)</item>
+        <item> Socso Number</item>
+        <item> Tabung Haji Number</item>
+        <item> Tax Reference Number</item>
+    </string-array>
+
+
+    <!--Use array-->
+
+    <string-array name="use_for_array">
+        <item>Home</item>
+        <item>Business</item>
+        <item>Office</item>
+        <item>Private</item>
+    </string-array>
+
+
+    <!--Hints -->
+    <string name="required">Required</string>
+    <string name="next">NEXT</string>
+    <string name="preference_email_message">Do you have preference or would \n <b>ysuvarnkar@tesla.com</b> be ok?</string>
+    <string name="ok">OK</string>
+    <string name="i_prefer_to_use">I prefer to use</string>
+    <string name="what_name_would_you_prefer_n_to_be_on_your_card">What name would you prefer \n to be on your card?</string>
+    <string name="type_your_number">type your number</string>
+    <string name="mobile_phone">MOBILE PHONE</string>
+    <string name="what_mobile_number_would_you_prefer_n_to_be_on_your_card">What mobile number would you prefer \n to be on your card?</string>
+    <string name="preferred_name">Preferred Name</string>
+    <string name="submit">SUBMIT</string>
+    <string name="continue_capital">CONTINUE</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="save">SAVE</string>
+
+    <string name="flag_sign_up">sign_up</string>
+    <string name="flag_main_board">main_bord</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="sunny_khiani">Sunny Khiani</string>
+
+
+</resources>

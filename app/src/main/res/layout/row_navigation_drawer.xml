@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Nav Item name-->
+        <com.alt.others.OnBoardingTextView
+            android:id="@+id/textView_nav_name"
+            style="@style/drawer_nav_item_texView_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/default_drawer_item_padding"
+            android:textColor="@color/colorWhite" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_below="@+id/textView_nav_name"
+            android:background="@color/color_drawer_list_divider" />
+
+    </RelativeLayout>
+</LinearLayout>
